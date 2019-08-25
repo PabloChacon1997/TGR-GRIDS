@@ -1,0 +1,57 @@
+.contenedor{
+	width: 75%;
+	float: left;
+	height: 2rem;
+	background-color: #957bbe;
+}
+
+.sidebar{
+	width: 20%;
+	float: right;
+	height: 2rem;
+	background-color: #80bdff;
+}
+
+#cont1{
+	width: 10%;
+	height: 50%;
+	float: left;
+	height: 2rem;
+	background-color: #80bdff;
+	text-align: center;
+}
+
+#cont2{
+	width: 75%;
+	float: right;
+	height: 2rem;
+	background-color: #80bdff;
+}
+
+
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+  }
+
+  .row.content {height: 450px}
+
+  .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+  }
+
+  footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+  }
+
+  @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;} 
+}
