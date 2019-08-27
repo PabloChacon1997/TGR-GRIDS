@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrarse</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body id="b2">
+	<header>
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-primary bg-dark">
+		<a class="navbar-brand" href="index.html" style="font-family: 'Roboto Condensed', sans-serif;"><img src="jh.png" alt="bonappetit"></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+    	<ul class="navbar-nav">
+      		<li class="nav-item active"><a class="nav-link" href="postres.html">Postres</a></li>
+      		<li class="nav-item"><a class="nav-link" href="inscribete.html">Regsitrate</a></li>
+    	</ul>
+    	<form class="form-inline ">
+    	<label for="email" class="nav-item" id="c1">Correo:</label>
+    <input type="email" class="form-control mr-sm-2" id="navbarNav" placeholder="Correo" name="email">
+    <label for="pwd" class="nav-item" id="c2">Contraseña:</label>
+    <input type="password" class="form-control mr-sm-2" id="navbarNav" placeholder="Contraseña" name="pswd"><br>
+    <button type="submit" class="btn btn-primary">Iniciar</button>
+    </form>
+  		</div>
+  		<form class="form-inline ">
+      		<input class="form-control mr-sm-2" type="search" placeholder="Busca tu postre:" aria-label="Search">
+      		<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="search.png"></button>
+    	</form>
+	 </nav>
+		</div>
+	</header>
+	<div class="container">
+		<form>
+
+			<h1>Datos personales</h1>
+			<p>Introduce tus datos personales para poder registrarte</p>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nombre</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre:">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Apellido</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Apellido">
+  </div>
+  <div class="form-group">
+  	<label for="exampleInputPassword1">Correo:</label>
+    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Correo">
+  </div>
+  <button type="submit" class="btn btn-primary">Registrarse</button>
+</form>
+	</div>
+	<br>
+	<footer class="footer bg-secondary text-center" id="f2">
+		<div class="container">
+			<p>
+				&copy; 2019 Pablo Chacón- Kevin Moscoso
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

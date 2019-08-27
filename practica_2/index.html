@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BonAppetit</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-primary bg-dark">
+		<a class="navbar-brand" href="index.html" style="font-family: 'Roboto Condensed', sans-serif;"><img src="jh.png" alt="bonappetit"></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+    	<ul class="navbar-nav">
+      		<li class="nav-item active"><a class="nav-link" href="postres.html">Postres</a></li>
+      		<li class="nav-item"><a class="nav-link" href="inscribete.html">Regsitrate</a></li>
+    	</ul>
+    	<form class="form-inline ">
+    	<label for="email" class="nav-item" id="c1">Correo:</label>
+    <input type="email" class="form-control mr-sm-2" id="navbarNav" placeholder="Correo" name="email">
+    <label for="pwd" class="nav-item" id="c2">Contraseña:</label>
+    <input type="password" class="form-control mr-sm-2" id="navbarNav" placeholder="Contraseña" name="pswd"><br>
+    <button type="submit" class="btn btn-primary">Iniciar</button>
+    </form>
+  		</div>
+  		
+  		
+  		<form class="form-inline ">
+      		<input class="form-control mr-sm-2" type="search" placeholder="Busca tu postre:" aria-label="Search">
+      		<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="search.png"></button>
+    	</form>
+	 </nav>
+		</div>
+	</header>
+	<body id="row2">
+		<div class="jumbotron text-center">
+			<h1>Bienvenido a Bonapettit</h1>
+			<p>En esta página podras buscar y compartir diferentes postres de lugares del mundo<br>Ademas si te haces miembro podras dar publicar tus propios postres tanto los que hayas hecho como los que has probado</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<center>
+						<h1>Nuevos Postres</h1>
+					</center>
+					<h4><a href="#">Pastel de Chocolate con fresas</a></h4>
+					<p>Este pastel creado por "LaChicaCocinera", nos ofrece un gran festival de sabor de delicioso choclate que combinado con el aroma de las fresas nos da el gusto fresco que el paladar agradecera.</p> <br>
+					<h4><a href="#">Helado de chocolate con dulce de leche</a></h4>
+					<p>Este delicioso postre que nos comparte "Don Herminio", nos abre las puertas de un gran sabor del dulce de leche conbinado ariniosamente con un chocolate espeso pero azucarado que nos tranportara a los manjares de las comidas.</p>
+				</div>
+				<div class="col-lg-6">
+					<center>
+						<h1>Más buscados</h1>
+					</center>
+					<h4><a href="#">Coopcake de mani con vainilla</a></h4>
+					<p>Un postre ideal para cualquier persona amante de lo amargo pero con toques suaves de una deliciosa pasta de vainilla, hecha a partir de productos totalmente naturales, todo un festival de sabor para quien la prueba.</p>
+				</div>
+			</div>
+			<br>
+			<div class="row" >
+				<div class="col-lx-12" id="tab1">
+					<h1>Calificaciones</h1>
+					<p>Desde aqui podras saber cual de los postres tienen mas o menos calificación repecto al sabor, prepacion, etc.</p>
+					<table class="table table-bordered table-stripped ">
+						<tr>
+							<th>Nombre</th>
+							<th>Nombre Artistico</th>
+							<th>Calificación(100%)</th>
+						</tr>
+						<tr>
+							<td>Pastel</td>
+							<td>Imagen</td>
+							<td>50%</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer class="footer bg-secondary text-center" id="f1">
+		<div class="container">
+			<p>
+				&copy; 2019 Pablo Chacón- Kevin Moscoso
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
